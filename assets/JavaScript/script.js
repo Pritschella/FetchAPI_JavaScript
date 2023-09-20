@@ -101,7 +101,11 @@ fetch("https://fakestoreapi.com/products/1")
     })
 
 /* Sintaxis del fetch (con promesas)
+    fetch (url a consumir)
+    .then (response=> response.text()) //manejo la respuesta
+    .then (datos => console.log(datos)) //manejo el dato
 
+    .catch(error => console.log(error));
 */
 
 //asigno el fetch a una variable...
